@@ -1,0 +1,25 @@
+/* Hero Section */
+header {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: white;
+    padding: 3rem 0;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
